@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Suite" parallel="false">
+    <!-- Auth Testing-->
+    <test name="Auth Tests">
+        <classes>
+            <class name="features.f1_auth.LoginTest"></class>
+        </classes>
+    </test>
+    
+    <test name="products Tests">
+        <classes>
+            <class name="features.f1_product.ProductTest"></class>
+        </classes>
+    </test>
+
+    <test name="Cart Tests">
+        <classes>
+            <class name="features.f3_shoppingCart.CartTest"></class>
+        </classes>
+    </test>
+    
+    <test name="Checkout Tests">
+        <classes>
+            <class name="features.f4_checkout.CheckoutTest"></class>
+        </classes>
+    </test>
+</suite>

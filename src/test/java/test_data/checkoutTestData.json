@@ -1,0 +1,50 @@
+[
+  {
+    "firstname": "",
+    "lastname": "saeid",
+    "postalCode": "1234",
+    "expectedResult": "Error: First Name is required"
+  },
+  {
+    "firstname": "samira",
+    "lastname": "",
+    "postalCode": "1234",
+    "expectedResult": "Error: Last Name is required"
+  },
+  {
+    "firstname": "samira",
+    "lastname": "saeid",
+    "postalCode": "",
+    "expectedResult": "Error: Postal Code is required"
+  },
+  {
+    "firstname": "",
+    "lastname": "",
+    "postalCode": "1234",
+    "expectedResult": "Error: First Name is required"
+  },
+  {
+    "firstname": "",
+    "lastname": "saeid",
+    "postalCode": "",
+    "expectedResult": "Error: First Name is required"
+  },
+  {
+    "firstname": "samira",
+    "lastname": "",
+    "postalCode": "",
+    "expectedResult": "Error: Last Name is required"
+  },
+  {
+    "firstname": "",
+    "lastname": "",
+    "postalCode": "",
+    "expectedResult": "Error: First Name is required"
+  },
+  {
+    "firstname": "samira",
+    "lastname": "saeid",
+    "postalCode": "1234",
+    "expectedResult": ""
+  }
+]
